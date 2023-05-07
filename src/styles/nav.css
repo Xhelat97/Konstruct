@@ -1,0 +1,32 @@
+nav{
+    min-height: 65px;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0 25px 0;
+    border-bottom: 1px solid #E6E6E6;
+    margin-bottom: 48px;
+}
+.nav__logo{
+    display: block;
+}
+.nav__menu{
+    width: 412px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1.09091px;
+}
+.nav__menu a{
+    text-decoration: none;
+    color: #48555B;
+}
+.nav__menu a:hover{
+    color: #00A4E5;
+}

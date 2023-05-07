@@ -1,0 +1,41 @@
+.capabilities{
+    width: 940px;
+    margin: 0 auto;
+}
+.capabilities__header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.capabilities__title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 2.30625px;
+    color: #48555B;
+    flex-grow: 0.7;
+}
+.capabilites__descr{
+    width: 405px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #48555B;
+}
+.capabilities__button{
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
