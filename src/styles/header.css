@@ -1,5 +1,4 @@
 header{
-    
     height: 769px;
     display: flex;
     flex-direction: column;
@@ -21,7 +20,7 @@ header{
     letter-spacing: 5.70937px;
     color: white;
 }
-p{
+.header__subtitle{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -37,4 +36,5 @@ p{
     font-size: 11px;
     line-height: 15px;
     letter-spacing: 3.7px;
+    color:white;
     }

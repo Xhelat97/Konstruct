@@ -3,6 +3,8 @@
 @import url("nav.css");
 @import url("about.css");
 @import url("capabilities.css");
+@import url("touch.css");
+@import url("footer.css");
 
 *{
     margin: 0;

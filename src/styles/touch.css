@@ -1,0 +1,34 @@
+.touch{
+    width: 1440px;
+    height: 499px;
+    padding:120px 545px 231px 545px;
+    background-image: url("../img/bg-footer.png");
+    background-color: #171819;
+}
+.touch__title{
+    margin: 0 auto;
+    margin-bottom: 35px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #48555B;
+}
+.touch__button{
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    height: 40px;
+    background: #00A4E5;
+    border:none;
+    color:#fff;   
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+

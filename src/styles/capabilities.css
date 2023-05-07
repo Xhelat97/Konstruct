@@ -1,10 +1,14 @@
 .capabilities{
     width: 940px;
+    height: 446px;
     margin: 0 auto;
+    margin-bottom: 115px;
 }
 .capabilities__header-wrapper{
     display: flex;
     justify-content: space-between;
+    height: 40px;
+    margin-bottom: 78px;
 }
 .capabilities__title{
     font-family: 'Open Sans';
@@ -15,6 +19,13 @@
     letter-spacing: 2.30625px;
     color: #48555B;
     flex-grow: 0.7;
+}
+.capabilities__title::after{
+    display: block;
+    content: "";
+    width: 16%;
+    margin: 11px 0;
+    border-bottom: 2px solid #00A4E5;
 }
 .capabilites__descr{
     width: 405px;
@@ -38,4 +49,39 @@
     line-height: 18px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
+    cursor: pointer;
+}
+.capabilities__cards{
+    display: flex;
+    justify-content: space-between;
+}
+.card__img{
+    display: block;
+}
+.cards__item{
+    width: 295px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 38px 22px 39px 22px;
+    border: 1px solid #E6E6E6;
+}
+.card__title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.426667px;
+    color: #48555B;
+}
+.cards__item .card__descr{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555B
 }
