@@ -57,10 +57,11 @@
 }
 .card__img{
     display: block;
+    margin-bottom: 25px;
 }
 .cards__item{
     width: 295px;
-    height: 330px;
+    /* height: 330px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -75,6 +76,7 @@
     line-height: 24px;
     letter-spacing: 0.426667px;
     color: #48555B;
+    margin-bottom: 13px;
 }
 .cards__item .card__descr{
     font-family: 'Open Sans';
